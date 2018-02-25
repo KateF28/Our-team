@@ -1,0 +1,213 @@
+body{
+    text-align: center;
+    font: 400 14px 'Raleway', Arial, sans-serif;
+}
+$backcolor: #ffcc00;
+$uppercase: uppercase;
+$bold: 500;
+.header{
+	&__firsttext{
+		text-transform: $uppercase;
+		padding: 110px 0 0 0;
+		color: gray;
+		font-size: 18px;
+		margin: 0;
+	}
+	&__secondtext{
+		text-transform: $uppercase;
+		color: $backcolor;
+		font-weight: $bold;
+		font-size: 60px;
+		margin: 0;
+	}
+}
+
+.main__header{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+.header__devideleft, .header__devideright{
+	background-color: $backcolor;
+	height: 1px;
+	max-width: 60%;
+	width: 210px;
+}
+.ion-bonfire{
+	color: $backcolor;
+    padding: 0 5px 0 5px;
+    height: 20px;
+}
+.main{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.ion-ios-arrow-back, .ion-ios-arrow-forward{
+	color: $backcolor;
+    font-size: 2em;
+    margin: 5%;
+}
+.main{
+	position: relative;
+}
+.main__path{
+	// width: 418px;
+	// height: 418px;
+    margin-top: 123px;
+	margin-right: 481px;
+	padding-right: 120px;
+	}
+// .main__path:before,
+// .main__path:after{
+// 	display: block;
+// 	content: "";
+// 	position: absolute;
+// 	height: 104px;
+// 	// background: linear-gradient(to right, $backcolor 0%, #fff 30%, #fff 50%, #fff 70%, $backcolor 100%);
+// 	width: 104px;
+// 	top: 123px;
+// 	border: 2px solid $backcolor;
+// }
+// .main__path:after{
+// 	right: calc(50% + 32px);
+// 	top: 434px;
+// 	border-width: 0 2px 2px 0;
+// 	margin-right: 60px;
+// }
+// .main__path:before{
+// 	border-width: 2px 0 0 2px;
+// 	right: calc(50% + 403px);
+// }
+
+// .main__dubblepath{
+// 	width: 418px;
+// 	height: 418px;
+//     margin-top: 123px;
+// 	margin-right: 481px;
+// 	}
+// .main__path:before,
+// .main__path:after{
+// 	display: block;
+// 	content: "";
+// 	position: absolute;
+// 	height: 104px;
+// 	width: 104px;
+// 	top: 123px;
+// 	border: 2px solid green;
+// }
+// .main__path:after{
+// 	right: calc(50% + 44px);
+// 	top: 0;
+// 	border-width: 0 2px 2px 0;
+// }
+// .main__path:before{
+// 	border-width: 2px 0 0 2px;
+// }
+.main__dubblepath:after{
+    content: "";
+	background: url(Ellipse_copy.png) 50% no-repeat;
+	height: 12px;
+	width: 54px;
+    display: inline;
+    position: absolute;
+    bottom: 0;
+    left: calc(50% - 28px);
+    margin-bottom: -110px;
+}
+.main__portrait{
+	// background: #fff url(Rectangle.jpg) 50% no-repeat;
+	// background-size: cover;
+	height: 387px;
+	width: 387px;
+	// border: 2px solid $backcolor;
+	display: inline-block;
+	// margin-top: 13px;
+	padding: 15px;
+	background-size: 67% 2px, 67% 2px, 2px 67%, 2px 67%;
+	transition: all 1s ease;
+	background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
+	background-position: left top, left bottom, left top, right top;
+	background-image: repeating-linear-gradient(to right, gray 0%, gray 50%, transparent 50%, transparent 100%),
+    repeating-linear-gradient(to right, gray 0%, gray 50%, transparent 50%, transparent 100%),
+    repeating-linear-gradient(to bottom, gray 0%, gray 50%, transparent 50%, transparent 100%),
+    repeating-linear-gradient(to bottom, gray 0%, gray 50%, transparent 50%, transparent 100%);
+}
+.main__portrait:hover{
+	padding: 15px;
+	transition: all 1s ease;
+	// transform: scale(1.01);
+	background-image: repeating-linear-gradient(to right, $backcolor 0%, $backcolor 50%, transparent 50%, transparent 100%),
+    repeating-linear-gradient(to right, $backcolor 0%, $backcolor 50%, transparent 50%, transparent 100%),
+    repeating-linear-gradient(to bottom, $backcolor 0%, $backcolor 50%, transparent 50%, transparent 100%),
+    repeating-linear-gradient(to bottom, $backcolor 0%, $backcolor 50%, transparent 50%, transparent 100%);
+}
+.main__photo{
+	border: 2px solid gray;
+}
+.main__photo:hover{
+transform: scale(1.01);
+transition: all 1s ease;
+border-color: $backcolor;
+}
+.main__portrait:after{
+	content: "";
+	background-color: $backcolor;
+	height: 560px;
+	width: 2px;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: 50%;
+    margin-bottom: 145px;
+    margin-top: 40px;
+    // margin-left: 50px;
+}
+.ion-android-more-horizontal{
+    font-size: 3em;
+    color: $backcolor;
+}
+.main__text{
+	position: absolute;
+    right: 5%;
+    width: 50%;
+}
+.main__name{
+	font-weight: $bold;
+	font-family: 'Roboto', sans-serif;
+}
+.main__nameunderline{
+	background-color: $backcolor;
+	height: 1px;
+	width: 110px;
+	margin: auto;
+}
+/*перенести div(тут кнопку) который в ряд на следующую строку:*/
+.main__descrunder{
+    display: table;
+    margin: auto;
+    height: 4px;
+    width: 50px;
+    margin-bottom: 26px;
+    background: linear-gradient(to right, $backcolor 0%, $backcolor 20%, #fff 20.5%, #fff 29.5%, $backcolor 30%, $backcolor 70%, #fff 70.5%, #fff 80%, $backcolor 80.5%, $backcolor 100%);
+}
+// .main__descrunder1, .main__descrunder2{
+// 	background-color: $backcolor;
+// 	height: 4px;
+// 	width: 10px;
+// }
+// .main__descrunder1{
+// 	margin-right: 5px;
+// }
+.main__button{
+	border: solid $backcolor 1px;
+	background-color: white;
+	color: gray;
+	text-transform: $uppercase;
+	font-weight: $bold;
+}
+.main__descr{
+	display: inline-block;
+	max-width: 55%;
+}

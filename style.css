@@ -1,0 +1,165 @@
+@charset "UTF-8";
+body {
+  text-align: center;
+  font: 400 14px 'Raleway', Arial, sans-serif; }
+
+.header__firsttext {
+  text-transform: uppercase;
+  padding: 110px 0 0 0;
+  color: gray;
+  font-size: 18px;
+  margin: 0; }
+
+.header__secondtext {
+  text-transform: uppercase;
+  color: #ffcc00;
+  font-weight: 500;
+  font-size: 60px;
+  margin: 0; }
+
+.main__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.header__devideleft, .header__devideright {
+  background-color: #ffcc00;
+  height: 1px;
+  max-width: 60%;
+  width: 210px; }
+
+.ion-bonfire {
+  color: #ffcc00;
+  padding: 0 5px 0 5px;
+  height: 20px; }
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.ion-ios-arrow-back, .ion-ios-arrow-forward {
+  color: #ffcc00;
+  font-size: 2em;
+  margin: 5%; }
+
+.main {
+  position: relative; }
+
+.main__path {
+  margin-top: 123px;
+  margin-right: 481px;
+  padding-right: 120px; }
+
+.main__dubblepath:after {
+  content: "";
+  background: url(Ellipse_copy.png) 50% no-repeat;
+  height: 12px;
+  width: 54px;
+  display: inline;
+  position: absolute;
+  bottom: 0;
+  left: calc(50% - 28px);
+  margin-bottom: -110px; }
+
+.main__portrait {
+  height: 387px;
+  width: 387px;
+  display: inline-block;
+  padding: 15px;
+  background-size: 67% 2px, 67% 2px, 2px 67%, 2px 67%;
+  -webkit-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+  background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
+  background-position: left top, left bottom, left top, right top;
+  background-image: -webkit-repeating-linear-gradient(left, gray 0%, gray 50%, transparent 50%, transparent 100%), -webkit-repeating-linear-gradient(left, gray 0%, gray 50%, transparent 50%, transparent 100%), -webkit-repeating-linear-gradient(top, gray 0%, gray 50%, transparent 50%, transparent 100%), -webkit-repeating-linear-gradient(top, gray 0%, gray 50%, transparent 50%, transparent 100%);
+  background-image: -o-repeating-linear-gradient(left, gray 0%, gray 50%, transparent 50%, transparent 100%), -o-repeating-linear-gradient(left, gray 0%, gray 50%, transparent 50%, transparent 100%), -o-repeating-linear-gradient(top, gray 0%, gray 50%, transparent 50%, transparent 100%), -o-repeating-linear-gradient(top, gray 0%, gray 50%, transparent 50%, transparent 100%);
+  background-image: repeating-linear-gradient(to right, gray 0%, gray 50%, transparent 50%, transparent 100%), repeating-linear-gradient(to right, gray 0%, gray 50%, transparent 50%, transparent 100%), repeating-linear-gradient(to bottom, gray 0%, gray 50%, transparent 50%, transparent 100%), repeating-linear-gradient(to bottom, gray 0%, gray 50%, transparent 50%, transparent 100%); }
+
+.main__portrait:hover {
+  padding: 15px;
+  -webkit-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+  background-image: -webkit-repeating-linear-gradient(left, #ffcc00 0%, #ffcc00 50%, transparent 50%, transparent 100%), -webkit-repeating-linear-gradient(left, #ffcc00 0%, #ffcc00 50%, transparent 50%, transparent 100%), -webkit-repeating-linear-gradient(top, #ffcc00 0%, #ffcc00 50%, transparent 50%, transparent 100%), -webkit-repeating-linear-gradient(top, #ffcc00 0%, #ffcc00 50%, transparent 50%, transparent 100%);
+  background-image: -o-repeating-linear-gradient(left, #ffcc00 0%, #ffcc00 50%, transparent 50%, transparent 100%), -o-repeating-linear-gradient(left, #ffcc00 0%, #ffcc00 50%, transparent 50%, transparent 100%), -o-repeating-linear-gradient(top, #ffcc00 0%, #ffcc00 50%, transparent 50%, transparent 100%), -o-repeating-linear-gradient(top, #ffcc00 0%, #ffcc00 50%, transparent 50%, transparent 100%);
+  background-image: repeating-linear-gradient(to right, #ffcc00 0%, #ffcc00 50%, transparent 50%, transparent 100%), repeating-linear-gradient(to right, #ffcc00 0%, #ffcc00 50%, transparent 50%, transparent 100%), repeating-linear-gradient(to bottom, #ffcc00 0%, #ffcc00 50%, transparent 50%, transparent 100%), repeating-linear-gradient(to bottom, #ffcc00 0%, #ffcc00 50%, transparent 50%, transparent 100%); }
+
+.main__photo {
+  border: 2px solid gray; }
+
+.main__photo:hover {
+  -webkit-transform: scale(1.01);
+  -ms-transform: scale(1.01);
+  transform: scale(1.01);
+  -webkit-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+  border-color: #ffcc00; }
+
+.main__portrait:after {
+  content: "";
+  background-color: #ffcc00;
+  height: 560px;
+  width: 2px;
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  right: 50%;
+  margin-bottom: 145px;
+  margin-top: 40px; }
+
+.ion-android-more-horizontal {
+  font-size: 3em;
+  color: #ffcc00; }
+
+.main__text {
+  position: absolute;
+  right: 5%;
+  width: 50%; }
+
+.main__name {
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif; }
+
+.main__nameunderline {
+  background-color: #ffcc00;
+  height: 1px;
+  width: 110px;
+  margin: auto; }
+
+/*перенести div(тут кнопку) который в ряд на следующую строку:*/
+.main__descrunder {
+  display: table;
+  margin: auto;
+  height: 4px;
+  width: 50px;
+  margin-bottom: 26px;
+  background: -webkit-gradient(linear, left top, right top, from(#ffcc00), color-stop(20%, #ffcc00), color-stop(20.5%, #fff), color-stop(29.5%, #fff), color-stop(30%, #ffcc00), color-stop(70%, #ffcc00), color-stop(70.5%, #fff), color-stop(80%, #fff), color-stop(80.5%, #ffcc00), to(#ffcc00));
+  background: -webkit-linear-gradient(left, #ffcc00 0%, #ffcc00 20%, #fff 20.5%, #fff 29.5%, #ffcc00 30%, #ffcc00 70%, #fff 70.5%, #fff 80%, #ffcc00 80.5%, #ffcc00 100%);
+  background: -o-linear-gradient(left, #ffcc00 0%, #ffcc00 20%, #fff 20.5%, #fff 29.5%, #ffcc00 30%, #ffcc00 70%, #fff 70.5%, #fff 80%, #ffcc00 80.5%, #ffcc00 100%);
+  background: linear-gradient(to right, #ffcc00 0%, #ffcc00 20%, #fff 20.5%, #fff 29.5%, #ffcc00 30%, #ffcc00 70%, #fff 70.5%, #fff 80%, #ffcc00 80.5%, #ffcc00 100%); }
+
+.main__button {
+  border: solid #ffcc00 1px;
+  background-color: white;
+  color: gray;
+  text-transform: uppercase;
+  font-weight: 500; }
+
+.main__descr {
+  display: inline-block;
+  max-width: 55%; }
